@@ -20,14 +20,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['username'] = $user['username'];
             $found = true;
 
-            // Arahkan sesuai role
-            if ($user['role'] == 'admin') {
-                header("Location: admin_dashboard.php");
-            } elseif ($user['role'] == 'guru') {
-                header("Location: guru_dashboard.php");
-            } elseif ($user['role'] == 'orangtua') {
-                header("Location: orangtua_dashboard.php");
-            }
+            // Arahkan semua role ke dashboard.php
+            header("Location: dashboard.php");
             exit;
         }
     }
