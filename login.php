@@ -3,9 +3,9 @@ session_start();
 
 // Daftar akun demo pakai array
 $users = [
-  ['username' => 'admin', 'password' => 'cloud123', 'role' => 'Admin'],
-  ['username' => 'guru', 'password' => 'secure456', 'role' => 'Guru'],
-  ['username' => 'orangtua', 'password' => 'parent789', 'role' => 'Orangtua']
+  ['username' => 'admin', 'password' => 'cloud123', 'role' => 'admin'],
+  ['username' => 'guru', 'password' => 'secure456', 'role' => 'guru'],
+  ['username' => 'orangtua', 'password' => 'parent789', 'role' => 'orangtua']
 ];
 
 // Kalau form login dikirim
