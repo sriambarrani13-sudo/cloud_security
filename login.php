@@ -3,9 +3,9 @@ session_start();
 
 // Daftar akun demo pakai array
 $users = [
-  ['username' => 'admin', 'password' => 'cloud123', 'role' => 'admin'],
-  ['username' => 'guru', 'password' => 'secure456', 'role' => 'guru'],
-  ['username' => 'orangtua', 'password' => 'parent789', 'role' => 'orangtua']
+  ['username' => 'Admin', 'password' => 'cloud123', 'role' => 'Admin'],
+  ['username' => 'Guru', 'password' => 'secure456', 'role' => 'Guru'],
+  ['username' => 'Orangtua', 'password' => 'parent789', 'role' => 'Orangtua']
 ];
 
 // Kalau form login dikirim
@@ -95,9 +95,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <!-- Tambahan keterangan akun -->
   <div style="margin-top:15px; font-size:14px; color:#ccc;">
     <p><strong>🔐 Akun Demo:</strong></p>
-    <p>admin → <em>cloud123</em></p>
-    <p>guru → <em>secure456</em></p>
-    <p>orangtua → <em>parent789</em></p>
+    <p>Admin → <em>cloud123</em></p>
+    <p>Guru → <em>secure456</em></p>
+    <p>Orangtua → <em>parent789</em></p>
   </div>
 </div>
 </body>
