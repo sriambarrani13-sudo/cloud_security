@@ -95,9 +95,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <!-- Tambahan keterangan akun -->
   <div style="margin-top:15px; font-size:14px; color:#ccc;">
     <p><strong>🔐 Akun Demo:</strong></p>
-    <p>Admin → <em>cloud123</em></p>
-    <p>Guru → <em>secure456</em></p>
-    <p>Orangtua → <em>parent789</em></p>
+    <p>admin → <em>cloud123</em></p>
+    <p>guru → <em>secure456</em></p>
+    <p>orangtua → <em>parent789</em></p>
   </div>
 </div>
 </body>
