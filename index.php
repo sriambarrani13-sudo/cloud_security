@@ -1,3 +1,5 @@
 <?php
-echo "Server PHP berhasil jalan!";
+// Redirect otomatis ke halaman login
+header("Location: login.php");
+exit();
 ?>
